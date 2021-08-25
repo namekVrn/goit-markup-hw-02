@@ -83,7 +83,7 @@ header{
     color: var(--ferst-color);
     text-decoration: none;
     font-size: 14px;
-    font-weight: medium;
+    font-weight: 500;
     margin-right: 0px;
 }
 .header-mail{
@@ -91,7 +91,7 @@ header{
     color: var(--ferst-color);
     text-decoration: none;
     font-size: 14px;
-    font-weight: medium;
+    font-weight: 500;
     margin-right: 50px;
 }
 .header-mail:hover, .header-tel:hover{
@@ -193,7 +193,7 @@ header{
 .page-text{
     color: var(--ferst-color);
     font-size: 16px;
-    font-weight: regular;
+    font-weight: 400;
     line-height: 30px;
     font-family: 'Roboto', sans-serif;
     margin: 0px;
