@@ -21,11 +21,14 @@ ul{
 a{
     text-decoration: none;
 }
-
-.list-center{
-    max-width: 1170px;
+.hidden_h1{
+    display: none;
+}
+.container{
+    max-width: 1200px;
     margin: 0 auto;
-    
+    padding-left: 15px;
+    padding-right: 15px;
 }
 /* Дополнительные классы */
 
@@ -110,8 +113,9 @@ header{
 
 
 /* Открываю main */
-.filter{
-   margin-top: 93px;
+.section{
+   padding-top: 94px;
+   padding-bottom: 94px;
 }
 .filter-list{
     padding: 0;
@@ -151,7 +155,7 @@ header{
 }
 .page-cards{
     margin-top: 50px;
-    margin-bottom: 93px;
+    
 }
 .page-cards ul {
     display: flex;
@@ -187,7 +191,6 @@ header{
     font-size: 18px;
     font-weight: bold;
     line-height: 36px;
-    font-family: 'Roboto', sans-serif;
     margin: 0px;
 }
 .page-text{
@@ -195,7 +198,6 @@ header{
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
-    font-family: 'Roboto', sans-serif;
     margin: 0px;
 }
 .filter > h1{
@@ -207,14 +209,13 @@ header{
 /* Открываю footer */
 footer{
     background: var(--footer-bg);
-    height: 252px;
 }
 .logo-footer{
    padding-top: 60px;
 }
 .address-footer{
-    margin-top: 20px;
-    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 60px;
     font-size: 14px;
     font-weight: 400;
     color: #fff;
@@ -228,7 +229,6 @@ footer{
     font-style: normal;
     margin: 0px;
     margin-top: 20px;
-    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #fff;
@@ -252,7 +252,6 @@ footer{
     font-size: 14px;
     font-weight: 400;
     margin-top: 20px;
-    font-family: 'Roboto', sans-serif;
     line-height: 24px;;
 }
 /* Закрываю footer */

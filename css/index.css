@@ -21,9 +21,11 @@ a{
     text-decoration: none;
 }
 
-.list-center{
-    max-width: 1170px;
+.container{
+    max-width: 1200px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 /* Дополнительные классы */
 
@@ -140,7 +142,7 @@ header{
         display: none;
     }
     .advantages-section{
-        margin-top: 94px;
+        padding-top: 94px;
     }
     .advantages-ul{
         display: flex;
@@ -164,16 +166,17 @@ header{
     .advantages-text{
         font-size: 14px;
         margin-top: 10px;
-        font-weight: 500;
+        font-weight: 400;
         color: var(--ferst-color);
         line-height: 24px;
         text-align: left;
-        font-family: 'Roboto', sans-serif;
+        
     }
     
     /* ourwork*/
     .ourwork{
-        margin-top: 94px;
+        padding-top: 94px;
+        padding-bottom: 91px;
     }
     .ourwork-title{
         text-align: center;
@@ -199,11 +202,10 @@ header{
     /* team*/
     .back-layer{
         background: #F5F4FA;
-        height: 654px;
-        padding-top: 94px;
     }
     .team{
-        margin-top: 94px;
+        padding-top: 94px;
+        padding-bottom: 94px;
         background: #F5F4FA;
     }
     .team-title{
@@ -253,14 +255,13 @@ header{
 /* Открываю footer */
 footer{
     background: var(--footer-bg);
-    height: 252px;
 }
 .logo-footer{
    padding-top: 60px;
 }
 .address-footer{
-    margin-top: 20px;
-    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 60px;
     font-size: 14px;
     font-weight: 400;
     color: #fff;
@@ -273,6 +274,11 @@ footer{
 .address-footer p{
     font-style: normal;
     margin: 0px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 24px;
 }
 .address-footer  a {
     margin-top: 9px;
@@ -292,7 +298,6 @@ footer{
     font-size: 14px;
     font-weight: 400;
     margin-top: 20px;
-    font-family: 'Roboto', sans-serif;
     line-height: 24px;;
 }
 /* Закрываю footer */
